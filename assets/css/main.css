@@ -1,0 +1,160 @@
+.main-body {
+    margin: auto;
+    /* width: 1444px; */
+    overflow-x: hidden;
+  }
+  
+  .nav-logo {
+    height: 76px;
+    width: 243.12px;
+    padding: 19px 0px 21px 92px;
+  }
+  .hero-section {
+    text-align: left;
+    margin: auto;
+    width: 788px;
+  }
+  
+  .banner-text {
+    height: 430px;
+    width: 788px;
+    color: #747474;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.75px;
+    line-height: 41px;
+  }
+  
+  .about-us-box {
+    height: 468px;
+    width: 650px;
+    padding: 200px 204px 200px 198px;
+    background-color: #c3c3c3;
+  }
+  
+  .about-us-text {
+    margin: auto;
+    height: 68px;
+    width: 248px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 1.25px;
+    line-height: 68px;
+    text-align: justify;
+    text-transform: uppercase;
+  }
+  .vision-bg {
+    height: 469px;
+    width: 788px;
+    background-image: url(../images/vision-1.jpg);
+    background-color: #000000;
+    opacity: 0.8;
+  }
+  .vision-text {
+    padding: 77px 73px 119px 65px;
+    height: 273px;
+    width: 660px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    letter-spacing: 0.85px;
+    line-height: 27px;
+  }
+  
+  .mission-box {
+    height: 462px;
+    width: 650px;
+    padding: 97px 72px 119px 72px;
+    background-image: url(../images/mission-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
+    opacity: 0.95;
+  }
+  
+  .mission-text {
+    margin: auto;
+    height: 246px;
+    width: 506px;
+    padding: 0;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    letter-spacing: 0.97px;
+    line-height: 27px;
+  }
+  
+  .mission-blank-box {
+    padding: 77px 73px 119px 65px;
+    height: 462px;
+    width: 788px;
+    background-color: #fff;
+  }
+  
+  .focus-blank-box {
+    width: 650px;
+    height: 468px;
+    background-color: #fff;
+  }
+  
+  .focus-box {
+    background-color: #c3c3c3;
+    height: 468px;
+    width: 788px;
+    padding: 132px 157px 132px 157px;
+  }
+  
+  .focus-text {
+    margin: auto;
+    text-transform: uppercase;
+    height: 180px;
+    width: 474px;
+    color: #ffffff;
+    background-image: url(./assets/images/what-does-dt-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Open Sans";
+    font-size: 50px;
+    letter-spacing: 1.25px;
+    line-height: 68px;
+  }
+  
+  .focus-details {
+    background-image: url(../images/what-does-dt-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 391px;
+    margin: 0px;
+  }
+  
+  .focus-details-section1{
+      height: 320px;
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 28px;
+      letter-spacing: 0.7px;
+      line-height: 80px;
+      padding-top: 36px;
+      padding-left: 164px;
+      padding-bottom: 35px;
+      margin: auto;
+  }
+  
+  .focus-details-section2{
+      height: 320px;
+      color: #FFFFFF;
+      font-family: "Open Sans";
+      font-size: 28px;
+      letter-spacing: 0.7px;
+      line-height: 80px;
+      padding-top: 36px;
+      padding-left: 164px;
+      padding-bottom: 35px;
+      margin: auto;
+  }
+  
