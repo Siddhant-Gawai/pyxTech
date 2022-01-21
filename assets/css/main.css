@@ -1,160 +1,738 @@
+/* Main Body CSS */
 .main-body {
-    margin: auto;
-    /* width: 1444px; */
-    overflow-x: hidden;
-  }
+  margin: auto;
+  width: 1444px;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.nav {
+  height: 116px;
+  width: 1443px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 13px 0 rgba(0, 0, 0, 0.5);
+}
+.nav .row > * {
+  display: inline-block;
+}
+
+.nav-logo {
+  height: 76px;
+  width: 243.12px;
+  padding: 19px 0px 21px 92px;
+}
+
+.nav-menu {
+  height: 30px;
+  width: 46px;
+  float: right;
+  padding: 46px 0px 45px 974.88px;
+}
+
+/* Banner */
+.banner {
+  width: 1444px;
+}
+.banner img {
+  padding-top: 30px;
+  width: auto;
+  height: 100%;
+}
+
+/* Hero Start */
+.hero-section {
+  margin: none;
+  width: 788px;
+  padding: 186px 326px 159px 330px;
+}
+
+.hero-text {
+  height: 430px;
+  width: 788px;
+  color: #747474;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+  line-height: 41px;
+}
+
+/* About Us start */
+.aboutus .row > * {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.section1 {
+  float: left;
+  height: 469px;
+  width: 650px;
+  background-color: #d4d4d4;
+}
+
+.about-us-text {
+  padding: 200px 204px 200px 198px;
+  margin: auto;
+  height: 68px;
+  width: 248px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 1.25px;
+  line-height: 68px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+.section2 {
+  height: 469px;
+  width: 788px;
+  background-image: url(../images/vision-1.jpg);
+  background-color: #000000;
+  opacity: 0.8;
+}
+.vision-text {
+  padding: 77px 73px 119px 65px;
+  height: 273px;
+  width: 660px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  letter-spacing: 0.85px;
+  line-height: 27px;
+}
+
+.section3 {
+  float: left;
+  height: 463px;
+  width: 650px;
+  background-image: url(../images/mission-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #000000;
+  opacity: 0.95;
+}
+
+.mission-text {
+  padding: 97px 72px 119px 72px;
+  height: 246px;
+  width: 506px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  letter-spacing: 0.97px;
+  line-height: 27px;
+}
+
+.section4 {
+  height: 463px;
+  width: 788px;
+  background-color: #fff;
+}
+.core-values-text {
+  padding: 77px 73px 119px 65px;
+  height: 273px;
+  width: 660px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  letter-spacing: 0.85px;
+  line-height: 27px;
+}
+.section5 {
+  float: left;
+  height: 428px;
+  width: 650px;
+  background-color: #fff;
+}
+
+.section6 {
+  height: 428px;
+  width: 788px;
+  background-image: url(../images/core-value-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #000000;
+  opacity: 0.95;
+}
+.digital-transformation {
+  background-color: #d4d4d4;
+  height: 300px;
+  width: 1443px;
+  margin-top: 20px;
+}
+
+.digital-transformation-text {
+  padding-top: 46px;
+  height: 204px;
+  width: 674px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 50px;
+  letter-spacing: 1.25px;
+  line-height: 68px;
+  text-align: center;
+}
+
+.focus .row > * {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.focus-text {
+  margin: auto;
+  text-transform: uppercase;
+  height: 180px;
+  width: 474px;
+  color: #ffffff;
+  background-image: url(./assets/images/what-does-dt-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Open Sans";
+  font-size: 50px;
+  letter-spacing: 1.25px;
+  line-height: 68px;
+}
+
+.focus .row {
+  background-image: url(../images/what-does-dt-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 391px;
+  margin: 0px;
+
+}
+
+.focus-details-section1 {
+  float: left;
+  height: 391px;
+  width: 722px;
   
-  .nav-logo {
-    height: 76px;
-    width: 243.12px;
-    padding: 19px 0px 21px 92px;
-  }
-  .hero-section {
-    text-align: left;
-    margin: auto;
-    width: 788px;
-  }
-  
-  .banner-text {
-    height: 430px;
-    width: 788px;
-    color: #747474;
-    font-family: "Open Sans";
-    font-size: 30px;
-    font-weight: 300;
-    letter-spacing: 0.75px;
-    line-height: 41px;
-  }
-  
-  .about-us-box {
-    height: 468px;
-    width: 650px;
-    padding: 200px 204px 200px 198px;
-    background-color: #c3c3c3;
-  }
-  
-  .about-us-text {
-    margin: auto;
-    height: 68px;
-    width: 248px;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 45px;
-    font-weight: 300;
-    letter-spacing: 1.25px;
-    line-height: 68px;
-    text-align: justify;
-    text-transform: uppercase;
-  }
-  .vision-bg {
-    height: 469px;
-    width: 788px;
-    background-image: url(../images/vision-1.jpg);
-    background-color: #000000;
-    opacity: 0.8;
-  }
-  .vision-text {
-    padding: 77px 73px 119px 65px;
-    height: 273px;
-    width: 660px;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 20px;
-    letter-spacing: 0.85px;
-    line-height: 27px;
-  }
-  
-  .mission-box {
-    height: 462px;
-    width: 650px;
-    padding: 97px 72px 119px 72px;
-    background-image: url(../images/mission-2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: #000000;
-    opacity: 0.95;
-  }
-  
-  .mission-text {
-    margin: auto;
-    height: 246px;
-    width: 506px;
-    padding: 0;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 20px;
-    letter-spacing: 0.97px;
-    line-height: 27px;
-  }
-  
-  .mission-blank-box {
-    padding: 77px 73px 119px 65px;
-    height: 462px;
-    width: 788px;
-    background-color: #fff;
-  }
-  
-  .focus-blank-box {
-    width: 650px;
-    height: 468px;
-    background-color: #fff;
-  }
-  
-  .focus-box {
-    background-color: #c3c3c3;
-    height: 468px;
-    width: 788px;
-    padding: 132px 157px 132px 157px;
-  }
-  
-  .focus-text {
-    margin: auto;
-    text-transform: uppercase;
-    height: 180px;
-    width: 474px;
-    color: #ffffff;
-    background-image: url(./assets/images/what-does-dt-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: "Open Sans";
-    font-size: 50px;
-    letter-spacing: 1.25px;
-    line-height: 68px;
-  }
-  
-  .focus-details {
-    background-image: url(../images/what-does-dt-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 391px;
-    margin: 0px;
-  }
-  
-  .focus-details-section1{
-      height: 320px;
-      color: #FFFFFF;
-      font-family: "Open Sans";
-      font-size: 28px;
-      letter-spacing: 0.7px;
-      line-height: 80px;
-      padding-top: 36px;
-      padding-left: 164px;
-      padding-bottom: 35px;
-      margin: auto;
-  }
-  
-  .focus-details-section2{
-      height: 320px;
-      color: #FFFFFF;
-      font-family: "Open Sans";
-      font-size: 28px;
-      letter-spacing: 0.7px;
-      line-height: 80px;
-      padding-top: 36px;
-      padding-left: 164px;
-      padding-bottom: 35px;
-      margin: auto;
-  }
-  
+}
+
+.focus-content1 {
+  padding-top: 36px;
+  padding-left: 140px;
+  padding-bottom: 35px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 28px;
+  letter-spacing: 0.7px;
+  line-height: 80px;
+  text-transform: capitalize;
+}
+.focus-details-section2 {
+  height: 320px;
+  width: 722px;
+}
+
+.focus-content2{
+  padding-top: 36px;
+  padding-left: 140px;
+  padding-bottom: 35px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 28px;
+  letter-spacing: 0.7px;
+  line-height: 80px;
+}
+
+.services .row >*{
+  margin: 0;
+  display: inline-block;
+}
+
+.services-name-block {
+  float: left;
+  height:996px;
+  width:695px;
+}
+
+.services-name {
+  padding: 445px 232px 483px 241px;
+  height: 68px;
+  width: 222px;
+  color: #6E6E6E;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1.25px;
+  line-height: 68px;
+  text-align: center;
+}
+
+.services-text-block {
+  height:996px;
+  width:749px;
+  background-image: url(../images/services-2.jpg);
+  display: flex;
+}
+.services-text1 {
+  padding-top: 147px;
+  padding-left: 183px;
+  padding-right: 181px;
+  padding-bottom:73px;
+  height: 220px;
+  width: 383px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 55px;
+}
+
+.services-text2{
+  padding: 0px 181px 255px 183px;
+  height: 300px;
+  width: 383px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 30px;
+  letter-spacing: 0.75px;
+  line-height: 50px;
+}
+
+.coverage .row > *{
+  display: inline-block;
+}
+
+.coverage-block1 {
+  float: left;
+  height:952px;
+  width:480.67px;
+}
+
+.coverage-text {
+  padding: 441px 110.67px 443px 110px;
+  height: 68px;
+  width: 260px;
+  color: #6E6E6E;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1.25px;
+  line-height: 68px;
+  text-align: center;
+}
+
+.coverage-block2 {
+  height:952px;
+  width:963.34px;
+}
+
+.industries-header {
+  height:239px;
+}
+.industries-text {
+  padding: 71px 578px 100px 582px;
+  height: 68px;
+  width: 284px;
+  color: #6E6E6E;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1.25px;
+  line-height: 68px;
+  text-align: center;
+}
+
+.industries-section {
+  height:504px;
+}
+
+.industries-row > *{
+  display: inline-block;
+  margin-left: 369px;
+}
+
+.industries-col1{
+  float: left;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #2E8EFF;
+}
+
+.industries-col2{
+  margin-left:57px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #2E8EFF;
+}
+.industries-col3{
+  margin-left:57px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #2E8EFF;
+}
+
+.industries-row2 > *{
+  display: inline-block;
+  margin-left: 369px;
+  margin-top:52px;
+}
+
+.industries-col11{
+  float: left;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #2E8EFF;
+}
+
+.industries-col22{
+  margin-left:57px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #2E8EFF;
+}
+.industries-col33{
+  margin-left:57px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #2E8EFF;
+}
+
+.industry-images1 {
+  height:88px;
+  width:89px;
+  padding: 32px 55px 21px 56px;
+}
+
+.industry-text1{
+  padding: 0px 44.5px 18px 44.5px;
+  height: 41px;
+  width: 111px;
+  color: #2E8EFF;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  line-height: 41px;
+  text-align: center;
+}
+
+.industry-textm{
+  padding: 0px 8px 18px 0px;
+  height: 41px;
+  width: 111px;
+  color: #2E8EFF;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  line-height: 41px;
+  text-align: center;
+}
+
+.industry-textl{
+  padding: 0px 34.5px 18px 34.5px;
+  height: 41px;
+  width: 111px;
+  color: #2E8EFF;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  line-height: 41px;
+  text-align: center;
+}
+
+.industry-images2 {
+  height: 74px;
+  width: 75px;
+  padding: 25px 62px 0px 63px;
+}
+.industry-text2 {
+  padding: 0px 16px 18px 16px;
+  height: 82px;
+  width: 168px;
+  color: #2E8EFF;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  line-height: 41px;
+  text-align: center;
+}
+
+/* TEAM */
+
+.team {
+  margin-top:171px;
+}
+
+.team .row > * {
+  display: inline-block;
+}
+
+.team-name-block {
+  float: left;
+  height:735px;
+  width:423px;
+  background-color: #d4d4d4;
+}
+.team-name {
+  padding: 333px 145px 334px 146px;
+  height: 68px;
+  width: 132px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1.25px;
+  line-height: 68px;
+  text-align: justify;
+}
+
+.team-details-block .row {
+  display: inline-block;
+}
+
+.team-col1 {
+  margin:84.5px 0px 32.5px 24.5px;
+  box-sizing: border-box;
+  height: 161px;
+  width: 300px;
+  border: 1px solid #D4D4D4;
+}
+
+.team-col2 {
+  margin:84.5px 0px 32.5px 23.5px;
+  box-sizing: border-box;
+  height: 161px;
+  width: 300px;
+  border: 1px solid #D4D4D4;
+}
+.team-col3 {
+  margin:84.5px 0px 32.5px 23.5px;
+  box-sizing: border-box;
+  height: 161px;
+  width: 300px;
+  border: 1px solid team#D4D4D4;
+}
+
+.team-user-name1 {
+  padding: 0px 52.5px 105.5px 53.5px;
+  height: 60px;
+  width: 194px;
+  color: #407ff9;
+  font-family: "Open Sans";
+  font-size: 28px;
+  letter-spacing: 0.7px;
+  line-height: 22px;
+  text-align: center;
+}
+.team-user-name2 {
+  margin: 0px 52.5px 105.5px 53.5px;
+  height: 60px;
+  width: 194px;
+  color: #407ff9;
+  font-family: "Open Sans";
+  font-size: 28px;
+  letter-spacing: 0.7px;
+  line-height: 22px;
+  text-align: center;
+}
+.team-user-name3 {
+  margin: 0px 52.5px 105.5px 53.5px;
+  height: 60px;
+  width: 194px;
+  color: #407ff9;
+  font-family: "Open Sans";
+  font-size: 28px;
+  letter-spacing: 0.7px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.team-user-designation {
+  margin: 0px 52.5px 105.5px 53.5px;
+  height: 60px;
+  width: 194px;
+  color: #7A7A7A;
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 0.7px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+.team-details-block2 .row2{
+  display: inline-block;
+}
+
+.team-col11 {
+  margin:0px 0px 32.5px 24.5px;
+  box-sizing: border-box;
+  height: 161px;
+  width: 300px;
+  border: 1px solid #D4D4D4;
+}
+
+.team-col22 {
+  margin:0px 0px 32.5px 23.5px;
+  box-sizing: border-box;
+  height: 161px;
+  width: 300px;
+  border: 1px solid #D4D4D4;
+}
+.team-col33 {
+  margin:0px 0px 32.5px 23.5px;
+  box-sizing: border-box;
+  height: 161px;
+  width: 300px;
+  border: 1px solid team#D4D4D4;
+}
+
+.team-user-name11 {
+  margin: 0px 52.5px 0px 53.5px;
+  height: 60px;
+  width: 194px;
+  color: #407ff9;
+  font-family: "Open Sans";
+  font-size: 28px;
+  letter-spacing: 0.7px;
+  line-height: 22px;
+  text-align: center;
+}
+
+/* CONTACT */
+
+.contact {
+  margin-top:143px;
+}
+
+.contact .row > * {
+  display: inline-block;
+}
+
+.contact-name-block {
+  float: left;
+  height:665px;
+  width:423px;
+  background-color: #d4d4d4;
+}
+.contact-name {
+  padding: 311px 98px 286px 97px;
+  height: 68px;
+  width: 228px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1.25px;
+  line-height: 68px;
+  text-align: justify;
+}
+
+.contact-form {
+  padding:17px 0px 18px 21px;
+  margin: 74px 231px 0px 208px;
+  box-sizing: border-box;
+  height: 60px;
+  width: 580px;
+  border: 1px solid #B8B8B8;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+.contact-form2 {
+  padding:17px 0px 18px 21px;
+  margin: 30px 231px 0px 208px;
+  box-sizing: border-box;
+  height: 60px;
+  width: 580px;
+  border: 1px solid #B8B8B8;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.contact-form-text {
+  margin:30px 496px 0px 208px;
+  height: 22px;
+  width: 315px;
+  color: #657086;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.38px;
+  line-height: 22px;
+}
+
+.checkbox-email{
+  margin: 25px 10px 0px 208px;
+}
+
+.checkbox-label {
+  height: 23px;
+  width: 76px;
+  color: #6E6E6E;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.38px;
+  line-height: 22px;
+}
+
+.checkbox-phone{
+  margin: 25px 10px 0px 66px;
+}
+
+.contact-submit {
+  margin: 28px 231px 0px 208px;
+  box-sizing: border-box;
+  height: 60px;
+  width: 580px;
+  border: 2px solid #407FF9;
+  border-radius: 20px;
+}
+
+.contact-submit-name {
+  margin: 17px 251px 16px 251px;
+  height: 27px;
+  width: 78px;
+  color: #407FF9;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+}
+
+.footer {
+  padding:100px 0px 30px 38px;
+}
+
+.footer-muted {
+  color: #B8B8B8;
+  height: 22px;
+  width: 812px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.footer-text {
+  color: #232323;
+  height: 22px;
+  width: 812px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
