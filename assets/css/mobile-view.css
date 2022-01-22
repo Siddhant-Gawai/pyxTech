@@ -1,0 +1,61 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 700px) {
+    html {
+      scroll-behavior: smooth;
+    }
+  
+    .main-body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .nav {
+      height: 60px;
+      width: auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 13px 0px rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+  
+    .nav-logo {
+      height: 40px;
+      width: 133.12px;
+      top: 0;
+      right: 2;
+      margin: none;
+      padding: 10px 0px 10px 10px;
+    }
+  
+    .nav-menu {
+      float: right;
+      display: block;
+      height: 30px;
+      width: 46px;
+      padding: 15px 0px 10px 0px;
+      margin: 0px 0px 0px 0px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  
+    /* Hero Us */
+    .hero-section {
+      margin: none;
+      width: auto;
+      padding: 10px 10px 10px 10px;
+    }
+    
+    .hero-text {
+      height: 430px;
+      width: auto;
+      color: #747474;
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 300;
+      letter-spacing: 0.75px;
+      line-height: 41px;
+      text-align: justify;
+    }
+  }
+  
