@@ -1,61 +1,174 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 700px) {
-    html {
-      scroll-behavior: smooth;
-    }
-  
-    .main-body {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-    }
-  
-    .nav {
-      height: 60px;
-      width: auto;
-      background-color: #ffffff;
-      box-shadow: 0 0 13px 0px rgba(0, 0, 0, 0.5);
-      position: relative;
-    }
-  
-    .nav-logo {
-      height: 40px;
-      width: 133.12px;
-      top: 0;
-      right: 2;
-      margin: none;
-      padding: 10px 0px 10px 10px;
-    }
-  
-    .nav-menu {
-      float: right;
-      display: block;
-      height: 30px;
-      width: 46px;
-      padding: 15px 0px 10px 0px;
-      margin: 0px 0px 0px 0px;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  
-    /* Hero Us */
-    .hero-section {
-      margin: none;
-      width: auto;
-      padding: 10px 10px 10px 10px;
-    }
-    
-    .hero-text {
-      height: 430px;
-      width: auto;
-      color: #747474;
-      font-family: "Open Sans";
-      font-size: 20px;
-      font-weight: 300;
-      letter-spacing: 0.75px;
-      line-height: 41px;
-      text-align: justify;
-    }
+  html {
+    scroll-behavior: smooth;
   }
-  
+
+  .main-body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav {
+    height: 60px;
+    width: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 13px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+
+  .nav-logo {
+    height: 40px;
+    width: 133.12px;
+    top: 0;
+    right: 2;
+    margin: none;
+    padding: 10px 0px 10px 10px;
+  }
+
+  .nav-menu {
+    float: right;
+    display: block;
+    height: 30px;
+    width: 46px;
+    padding: 15px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Hero Us */
+  .hero-section {
+    margin: none;
+    width: auto;
+    padding: 30px 20px 10px 20px;
+  }
+
+  .hero-text {
+    height: 430px;
+    width: auto;
+    color: #747474;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.75px;
+    line-height: 28px;
+    text-align: justify;
+  }
+
+  /* About Us start */
+  .aboutus .row > * {
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .section1 {
+    float: none;
+    height: 80px;
+    width: 100%;
+    background-color: #d4d4d4;
+  }
+
+  .about-us-text {
+    padding: 5px 0px 0px 0px;
+    margin: auto;
+    height: 68px;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1.25px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .section2 {
+    min-height: 300px;
+    width: 100%;
+    background-image: url(../images/vision-1.jpg);
+    background-repeat: no-repeat;
+    background-color: #000000;
+    opacity: 1;
+  }
+  .vision-text {
+    clear: both;
+    margin-right: 10px;
+    padding: 50px 0px 20px 0px;
+    min-height: 300px;
+    width: 100%;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0.85px;
+    line-height: 27px;
+    font-weight: default;
+    text-overflow: ellipsis;
+  }
+  .vision-ul {
+      display: block;
+    overflow: auto;
+    width: 100%;
+    word-wrap: break-word;
+    padding-right: 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .section3 {
+    float: left;
+    height: 463px;
+    width: 650px;
+    background-image: url(../images/mission-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
+    opacity: 1;
+  }
+
+  .mission-text {
+    padding: 97px 72px 119px 72px;
+    height: 246px;
+    width: 506px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    letter-spacing: 0.97px;
+    line-height: 27px;
+    font-weight: 300;
+  }
+
+  .section4 {
+    height: 463px;
+    width: 788px;
+    background-color: #fff;
+  }
+  .core-values-text {
+    padding: 77px 20px 119px 65px;
+    height: 273px;
+    width: 660px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    letter-spacing: 0.85px;
+    line-height: 27px;
+    font-weight: 300;
+  }
+  .section5 {
+    float: left;
+    height: 428px;
+    width: 650px;
+    background-color: #fff;
+  }
+
+  .section6 {
+    height: 428px;
+    width: 788px;
+    background-image: url(../images/core-value-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
+    opacity: 1;
+  }
+}
